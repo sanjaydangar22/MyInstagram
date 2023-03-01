@@ -1,0 +1,24 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+<<<<<<<< HEAD:MyInstagram/app/src/main/res/values/themes.xml
+    <style name="Theme.MyInstagram" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+========
+    <style name="Theme.SdTube" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+>>>>>>>> parent of 253a331 (update):SdTube/app/src/main/res/values/themes.xml
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+<<<<<<<< HEAD:MyInstagram/app/src/main/res/values/themes.xml
+        <item name="android:statusBarColor">#C6C5C8</item>
+========
+        <item name="android:statusBarColor">#B3AEBD</item>
+>>>>>>>> parent of 253a331 (update):SdTube/app/src/main/res/values/themes.xml
+        <!-- Customize your theme here. -->
+    </style>
+</resources>

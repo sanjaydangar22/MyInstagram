@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".activity.StoryActivity">
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_20sdp"
+        app:lottie_rawRes="@raw/progress_bar1"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"/>
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textStyle="bold"
+    android:textColor="@color/black"
+    android:textSize="@dimen/_15ssp"
+    android:id="@+id/txtNameID"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_500sdp"
+        android:id="@+id/imgDP"
+        android:scaleType="fitXY"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:gravity="center_vertical">
+<TextView
+    android:layout_width="@dimen/_180sdp"
+    android:layout_height="wrap_content"
+    android:text="Send Massage"
+    android:background="@drawable/round1"
+    android:padding="@dimen/_10sdp"
+    android:layout_margin="@dimen/_5sdp"
+    android:textSize="@dimen/_15ssp"/>
+        <ImageView
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_18sdp"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:src="@drawable/heart" />
+
+        <ImageView
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_18sdp"
+            android:layout_marginStart="@dimen/_20sdp"
+            android:src="@drawable/comment" />
+
+        <ImageView
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_18sdp"
+            android:layout_marginStart="@dimen/_20sdp"
+            android:src="@drawable/send" />
+
+    </LinearLayout>
+</LinearLayout>
